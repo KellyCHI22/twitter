@@ -1,36 +1,46 @@
-# Alphitter - Simple Twitter Clone
+<div align="center">
+
+# Alphitter (Alpha-twitter)
+
+#### Simple Twitter Clone
+
+![](public/thumbnail.jpg)
+
+</div>
 
 ### 📜 Table of Contents 
 
 <details>
 <summary>Click me</summary>
 
-- [Alphitter - Simple Twitter Clone](#alphitter---simple-twitter-clone)
-  - [📜 Table of Contents](#-table-of-contents)
+- [Alphitter (Alpha-twitter)](#alphitter-alpha-twitter)
+      - [A Simple Twitter Clone](#a-simple-twitter-clone)
+    - [📜 Table of Contents](#-table-of-contents)
   - [💡 Overview](#-overview)
     - [👀 Live demo: https://weilocus.github.io/twitter/](#-live-demo-httpsweilocusgithubiotwitter)
     - [🧩 Built with](#-built-with)
-    - [💪 Our Team 小組成員](#-our-team)
-      - [前端組員](#前端組員)
-      - [後端組員](#後端組員)
+    - [💪 Our Team](#-our-team)
+      - [Front-end team](#front-end-team)
+      - [Back-end team](#back-end-team)
+      - [Desktop Preview](#desktop-preview)
+      - [Mobile Preview](#mobile-preview)
   - [✨ Features](#-features)
     - [User Features](#user-features)
-      - [首頁](#首頁)
-      - [使用者個人頁面](#使用者個人頁面)
-      - [設定頁面](#設定頁面)
-      - [互動](#互動)
-    - [Admin Features 後台功能](#admin-features-後台功能)
-    - [Mobile Preview 手機版畫面](#mobile-preview-手機版畫面)
-  - [🚀 Getting Started 開始使用](#-getting-started-開始使用)
-  - [💻 Technologies 開發環境與工具](#-technologies-開發環境與工具)
-    - [📦 File Structure 專案結構](#-file-structure-專案結構)
-  - [🙏 Acknowledgements 致謝](#-acknowledgements-致謝)
+      - [Home page](#home-page)
+      - [Personal page](#personal-page)
+      - [Settings page](#settings-page)
+      - [Interact with other users](#interact-with-other-users)
+    - [Admin Features](#admin-features)
+  - [🚀 Run locally](#-run-locally)
+  - [💻 Technologies](#-technologies)
+    - [📦 File Structure](#-file-structure)
+  - [🙏 Acknowledgements](#-acknowledgements)
 
 </details>
 
 ## 💡 Overview
 
-Alphitter is the final collaborative project for Alpha Camp, which is developed within 2 weeks using Agile methodology by four team members, two of whom are responsible for the front-end and two for the back-end. This repo shows the front-end part of the project. For the back-end code, please refer to [this link](https://github.com/yhhuangfrank/twitter-api-2020).
+Alphitter is the final collaborative project for [Alpha Camp](https://www.linkedin.com/school/alpha-camp/?originalSubdomain=tw), which is developed within 2 weeks using Agile methodology by a four members team. Two of them are responsible for the front-end and two for the back-end. This repo shows the front-end part of the project. For the back-end code, please refer to [this link](https://github.com/yhhuangfrank/twitter-api-2020).
 
 ### 👀 Live demo: https://weilocus.github.io/twitter/
 
@@ -43,17 +53,20 @@ Alphitter is the final collaborative project for Alpha Camp, which is developed 
 
 ### 💪 Our Team
 
-#### Front-end team
+#### Front-end Team
 
-- Weii
-- Kelly CHI
+- [Weii](https://github.com/WeiLocus)
+- [Kelly CHI](https://github.com/KellyCHI22)
 
-#### Back-end team
+#### Back-end Team
 
-- Frank
-- Wei Lin
+- [Frank](https://github.com/yhhuangfrank)
+- [Wei Lin](https://github.com/wego11ya)
 
-### Mobile Preview
+#### Desktop Preview
+
+![](public/alphitter1.jpg)
+#### Mobile Preview
 
 ![](public/mobile-preview.jpg)
 
@@ -63,84 +76,88 @@ Alphitter is the final collaborative project for Alpha Camp, which is developed 
 
   ![Tweet Demo](/public/tweet-demo.gif)
   
-- Like and leave comments to the tweets you like
+- Like and leave comments to the tweets
 
   ![Reply](/public/reply-demo.gif)
  
-- Customzie your profile pictures and introduction easily
+- Customize easily your profile pictures and introduction 
 
-![Edit](/public/edit-user-info-demo.gif)
+  ![Edit](/public/edit-user-info-demo.gif)
 
 ### User Features
 
-#### Home page
+- Register as a new user or log in to your account to access the site
+- Navigate through the site by clicking different links on the sidebar
+- Click on Logout button in the sidebar to log out
 
-- Click on the input box to send tweets
-- View all tweets on the site, sorted by publish time from newest to oldest
+#### Home Page
+
+- Publish tweets and see the updated feed immediately 
+- View all tweets on the site sorted by publish time from newest to oldest
 - View a specific tweet and replies listed from newest to oldest
 
-#### Personal page
+#### Personal Page
 
-- View tweets from a specific user, sorted from newest to oldest
-- View replies from a specific user, sorted from newest to oldest
-- View a a specific user's liked tweets, sorted from newest to oldest
-- Edit your user name, introduction, cover photo, and profile picture
+- View tweets from a specific user sorted from newest to oldest
+- View replies from a specific user sorted from newest to oldest
+- View a a specific user's liked tweets sorted from newest to oldest
+- Edit the user account user name, introduction, cover photo, and profile picture
 
 #### Settings page
 
 - Manage your account, username, email and password settings
 
-#### Interact with other users
+#### Interact with Other Users
 
 - Reply to other users' tweets
-- Click to like or unlike your own tweets or those of other users
-- See the top 10 users that have the most followers on the 'Recommended' section
+- Click to like or unlike tweets
 - Click to follow or unfollow users
+- See the top 10 users that have the most followers on the 'Recommended' section
 
 ### Admin Features
 
-- Log in as an administrator and get a clear message if you make a mistake when logging in
-- View all tweets on the 'Tweet list page'
-- Click to delete any tweet on the tweet list page and a confirmation window will pop up
-- Browse all registered users on 'User list page', sorted by the number of tweets, with the most being the first
+- Log in as an administrator by using an administrator account
+- View all tweets on the 'Tweet List' page
+- Click to delete any tweet on the tweet list page
+- Browse all registered users on the 'User List' page sorted by the number of tweets they published
 
 ## 🚀 Run locally
 
-1. Clone the project to your loacl enviroment：
+1. Clone the project to your local environment
 
 ```bash
-$ git clone "https://github.com/WeiLocus/twitter.git"
+$ git clone "https://github.com/KellyCHI22/twitter.git"
 ```
 
-2. 在本地開啟之後，透過終端機進入資料夾，輸入：
+2. Open the project and type the following command in your terminal
 
 ```bash
 $ npm install
 ```
 
-3. 安裝完畢後，繼續輸入：
+3. Type the following command after finishing installing all the packages
 
 ```bash
 $ npm run dev
 ```
 
-4. 打開瀏覽器輸入網址：`http://localhost:5173/twitter` 即可進入網站
+4. Open your browser and navigate to the following path: `http://localhost:5173/twitter` 
 
-5. 前台測試帳號：
-
-```
-帳號：user1
-密碼：12345678
-```
-
-6. 後台測試帳號：
+5. Use this account to test a regular user account:
 
 ```
-帳號：root
-密碼：12345678
+account: user1
+password: 12345678
 ```
 
-7. 若要暫停使用，可在終端機輸入以下指令：
+6. Use this account to test a administrator account:
+
+```
+account: root
+password: 12345678
+```
+
+7. Type the following command to stop the dev server
 
 ```bash
 ctrl + c
@@ -179,4 +196,4 @@ ctrl + c
 
 ## 🙏 Acknowledgements
 
-A million thanks to all the team members for successfully completing the goal in just two weeks with the highest standard, it was great to work with you guys!
+A million thanks to all the team members for successfully completing the project in just two weeks with the highest standard. It was a great pleasure and an honour to work with you guys!
